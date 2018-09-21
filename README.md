@@ -11,7 +11,7 @@ Method to rotate an array to the left N number of times
         return tempArray;
         
     }
-#Spare-Arrays
+# Sparse-Arrays
 
 Method to see how many times a string appears in a query
 
