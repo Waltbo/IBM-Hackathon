@@ -1,4 +1,4 @@
-# Left-Rotation
+# Array-Rotation
 Method to rotate an array to the left N number of times
 
     static int[] rotLeft(int[] a, int d) {
@@ -25,4 +25,17 @@ Method to see how many times a string appears in a query
             }
         }
         return timesPassed;
+    }
+# Two-Strings
+
+Method to check if strings contain similar characters
+
+static String twoStrings(String s1, String s2) {
+        String [] check = s1.split("");
+        for(int i=0; i<check.length;i++){
+            if(s2.contains(check[i])){
+                return "YES";
+            }
+        }
+        return "NO";
     }
